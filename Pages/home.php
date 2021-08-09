@@ -379,9 +379,8 @@
 	<!-- ad -->
 	<div id="myBtn">
 		<button style="margin-left:125px;width:40px  ;border-radius:145px;" onclick="Close_ad()">x</button>
-		<div class="row"><a href="./cpawebsite/uploads/image/waste.png" target="blank"><img src="./cpawebsite/uploads/image/waste.png" width="180px"  height="240px" alt=""></div>
-		<br>
-		<div class="row"><a href="https://abhreceipt.cpa.go.th/" target="blank"><button onclick="topFunction()" class="btn btn-success" >ลงทะเบียนขอรับใบเสร็จ</button></a></div>
+		<div class="row"><a href="./cpawebsite/uploads/image/waste.png" target="blank"><img src="./cpawebsite/uploads/image/waste.png" style="border-radius: 5px;" width="180px"  height="240px" alt=""></div>
+		<div class="row"><a href="https://abhreceipt.cpa.go.th/" target="blank"><button onclick="topFunction()" class="btn btn-success mt-1" >ลงทะเบียนขอรับใบเสร็จ</button></a></div>
 	</div>
 	
 
