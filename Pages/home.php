@@ -376,9 +376,26 @@
 	<!-- ------------------------------------------------------  EVENT PICTURE   ----------------------------------------------------------- -->
 
 
+	<!-- ad -->
+	<div id="myBtn">
+		<button style="margin-left:125px;width:40px  ;border-radius:145px;" onclick="Close_ad()">x</button>
+		<div class="row"><a href="./cpawebsite/uploads/image/waste.png" target="blank"><img src="./cpawebsite/uploads/image/waste.png" width="180px"  height="240px" alt=""></div>
+		<br>
+		<div class="row"><a href="https://abhreceipt.cpa.go.th/" target="blank"><button onclick="topFunction()" class="btn btn-success" >ลงทะเบียนขอรับใบเสร็จ</button></a></div>
+	</div>
+	
+
+
+
 	<?php include "./cpawebsite/components/footer.php" ?>
 	<script>
-		$('#myModal').modal('show')
+		// $('#myModal').modal('show')
+
+		var mybutton = document.getElementById("myBtn");
+		function Close_ad(){
+			mybutton.style.display = "none";
+		}
+	
 	</script>
 	<style>
 		.block-heights {
@@ -399,6 +416,22 @@
 			}
 
 		}
+
+		#myBtn {
+            /* display: none; */
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            /* background-color: red; */
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
 	</style>
 </body>
 
